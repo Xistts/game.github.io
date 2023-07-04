@@ -702,7 +702,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url("assets/images/Banner-bg.png");
+  background-image: url(../images/Banner-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
