@@ -702,7 +702,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(xistts.github.io/game.github.io/assets/images/Banner-bg.PNG);
+  background-image: url("assets/images/banner1.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
