@@ -10,20 +10,20 @@
 
 .link_input{display:none;}
 .fon-menu{}
-.padding20{padding:0px;}
-button{font-family:"PT Root UI";}
+.padding20{padding:0;}
+button{font-family: 'Roboto', sans-serif;}
 .w100{width:100%;}
 .btn-link{display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color: #ffffff;text-decoration:none;}
 .btn-link:hover{color: #ffffff;}
 .btn-link:hover path{fill: #b963ff;}
 .btn-link svg{display:block;}
-.btn-link span{-ms-flex-negative:0;flex-shrink:0;width:20px;margin-right:10px;display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;}
-.btn{background-color: #8156fc;border-radius:4px;height:36px;display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;font-family:"PT Root UI";font-size:inherit;color: #ffffff;font-weight:500;border-width:0;text-decoration:none;}
+.btn-link span{flex-shrink:0;width:20px;margin-right:10px;display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;}
+.btn{background-color: #8156fc;border-radius:4px;height:36px;display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;font-family: 'Roboto', sans-serif;font-size:inherit;color: #ffffff;font-weight:500;border-width:0;text-decoration:none;}
 .btn:hover{background-color:#5689c0;}
 .btn.big{padding:0 30px;}
 .btn2{background-color:transparent;border:1px solid rgba(136, 94, 255, 0.4);color: rgba(255, 0, 0, 0.8);display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-decoration:none;border-radius:4px;font-family:"PT Root UI";font-size:inherit;}
 .btn2:hover{background-color:#8156fc;border-color:#8156fc;color: #f80000;}
-.btn3{text-decoration:none;font-family:"PT Root UI";font-size:inherit;border:1px solid rgb(255, 255, 255);border-radius:4px;color: rgb(246, 246, 250);cursor:pointer;background-color:transparent;display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:36px;width:100%;}
+.btn3{text-decoration:none;font-family: 'Roboto', sans-serif;;font-size:inherit;border:1px solid rgb(255, 255, 255);border-radius:4px;color: rgb(246, 246, 250);cursor:pointer;background-color:transparent;display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:36px;width:100%;}
 .btn3:hover{border:1px solid #6996C7;background-color:#6996C7;color: #ea0000;}
 .btn3.big{padding:0 33px;}
 .btn-remove{background-color:transparent;border-width:0;cursor:pointer;color:#6996C7;}
@@ -31,10 +31,14 @@ button{font-family:"PT Root UI";}
 .big{height:48px;}
 .text-gray{color:#808080;}
 .text-red{color:#F14949;}
-.input{background: #f80000;border:1px solid rgba(21, 21, 40, 0.2);padding:0 10px;font-family:"PT Root UI";font-size:14px;font-weight:300;color: #ffffff;width:100%;height:36px;border-radius:4px;outline:none;}
+.input{background: #f80000;border:1px solid rgba(21, 21, 40, 0.2);padding:0 10px;font-family: 'Roboto', sans-serif;;font-size:14px;font-weight:300;color: #ffffff;width:100%;height:36px;border-radius:4px;outline:none;}
 .flx{display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;}
-.fxs{-ms-flex-negative:0;flex-shrink:0;}
-.fxg{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;}
+.fxs{
+}
+
+.fxs{flex-shrink:0;}
+
+.fxg{-webkit-box-flex:1;flex-grow:1;}
 .aic{-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
 .jcsb{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;}
 .lh{line-height:1.5;}
@@ -53,22 +57,23 @@ button{font-family:"PT Root UI";}
 .t10{margin-top:10px;}
 .r15{margin-right:15px;}
 a,img{outline:none;}
-*{padding:0px;margin:0px;-webkit-box-sizing:border-box;box-sizing:border-box;}
-img{border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none;}
+*{padding:0;margin:0;-webkit-box-sizing:border-box;box-sizing:border-box;}
+img{border-top-width:0;border-right-width:0;border-bottom-width:0;border-left-width:0;border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none;}
 a{text-decoration:underline;}
 a:hover{text-decoration:none;}
 button{cursor:pointer;outline:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;}
 a{color: #ffffff;}
 .has-icon{display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;line-height:1;}
-.has-icon svg{display:block;margin-right:9px;-ms-flex-negative:0;flex-shrink:0;}
+.has-icon svg{display:block;margin-right:9px;flex-shrink:0;}
 .warning svg{position:relative;top:1px;}
 .right-250{width:252px;margin-left:60px;
     background-image: url(../images/dark-bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding: 120px 0px 150px 0px;
+    padding: 120px 10px ;
     position: relative;
+
 }
 .txtcolor{
     color: white
@@ -86,7 +91,7 @@ a{color: #ffffff;}
 .menu-accordion li li a:after{content:"";display:none;}
 .menu-accordion li ul{margin-top:20px;display:none;}
 .menu-accordion a{display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;text-decoration:none;color: #ffffff;font-weight:500;}
-.menu-accordion a:after{content:"";background-image:url(https://www.ironbook.ru/local/templates/New/images/drop-menu.svg);background-repeat:no-repeat;background-position:0 0;display:block;width:14px;height:8px;-webkit-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;}
+.menu-accordion a:after{content:"";background-repeat:no-repeat;background-position:0 0;display:block;width:14px;height:8px;-webkit-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;}
 .menu-accordion a:hover{color: #f8f8f8;}
 @media (max-width: 992px){
     .f20{font-size:16px;}
@@ -101,19 +106,15 @@ a{color: #ffffff;}
     .item-configurator .txt{display:none;}
     .item-configurator .info{display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:16px;font-weight:500;}
     .item-configurator .info > div{margin-bottom:0!important;}
-    .item-configurator .btn2{font-size:0;padding:0;width:36px;height:36px;display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;}
+    .item-configurator .btn2{font-size:10px;padding:0;width:100%;height:36px;display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;}
     .item-configurator .btn2:hover{background-color:transparent;border:1px solid rgba(21, 21, 40, 0.4);color:rgba(21, 21, 40, 0.8);}
     .item-configurator .btn2:hover path{fill:#151528;fill-opacity:0.8;}
     .item-configurator .btn2 svg{margin-right:0;}
     .grid-cart .right-250{width:100%;border-top:1px solid #E5E5E5;padding-top:40px;}
 }
-#new_constr{margin-bottom:40px;}
+#new_constr{margin-bottom:10px;}
 .item-configurator .pic img.icon{max-width:48px;height:auto;display:block;}
 #new_constr .btn-remove{text-decoration:none;}
 .vibor{display:none;margin-top:-10px;}
 .vibor_desc{margin-bottom:20px;font-weight:300;font-size:14px;color:#808080;display:none;}
-/*! CSS Used fontfaces */
-@font-face{font-family:'PT Root UI';src:url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Medium.eot');src:local('PT Root UI Medium'), local('PTRootUI-Medium'),         url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Medium.eot?#iefix') format('embedded-opentype'),         url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Medium.woff2') format('woff2'),         url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Medium.woff') format('woff'),         url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Medium.ttf') format('truetype');font-weight:500;font-style:normal;}
-@font-face{font-family:'PT Root UI';src:url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Light.eot');src:local('PT Root UI Light'), local('PTRootUI-Light'),         url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Light.eot?#iefix') format('embedded-opentype'),         url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Light.woff2') format('woff2'),         url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Light.woff') format('woff'),         url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Light.ttf') format('truetype');font-weight:300;font-style:normal;}
-@font-face{font-family:'PT Root UI';src:url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Regular.eot');src:local('PT Root UI'), local('PTRootUI-Regular'),         url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Regular.eot?#iefix') format('embedded-opentype'),         url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Regular.woff2') format('woff2'),         url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Regular.woff') format('woff'),         url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Regular.ttf') format('truetype');font-weight:normal;font-style:normal;}
-@font-face{font-family:'PT Root UI';src:url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Bold.eot');src:local('PT Root UI Bold'), local('PTRootUI-Bold'),         url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Bold.eot?#iefix') format('embedded-opentype'),         url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Bold.woff2') format('woff2'),         url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Bold.woff') format('woff'),         url('https://www.ironbook.ru/local/templates/New/fonts/PTRootUI-Bold.ttf') format('truetype');font-weight:bold;font-style:normal;}
+
